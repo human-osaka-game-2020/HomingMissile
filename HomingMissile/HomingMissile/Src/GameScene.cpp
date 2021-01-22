@@ -6,25 +6,25 @@
 static Missile missile;
 static Target target;
 
-GsmeScene::GsmeScene()
+GameScene::GameScene()
 {
 	missile.InitTexture();
 	target.InitTexture();
 }
 
-GsmeScene::~GsmeScene()
+GameScene::~GameScene()
 {
 	missile.ReleaseTexture();
 }
 
-void GsmeScene::Exec()
+void GameScene::Exec()
 {
 	target.Exec();
 	missile.GetPoston(target.PosX, target.PosY);
 	missile.Exec();
 }
 
-void GsmeScene::Draw()
+void GameScene::Draw()
 {
 	target.Draw();
 	missile.Draw();

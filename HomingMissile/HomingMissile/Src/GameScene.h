@@ -2,16 +2,13 @@
 #ifndef GAMESCENE_H
 #define GAMESCENE_H
 
-class GsmeScene
+class GameScene
 {
 public:
-	GsmeScene();
-	~GsmeScene();
+	GameScene();
+	~GameScene();
 	void Exec();
 	void Draw();
-
-private:
-
 };
 
 #endif // !INGAMESCENE_H

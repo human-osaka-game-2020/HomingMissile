@@ -11,8 +11,7 @@ public:
 	void InitTexture();
 	void ReleaseTexture();
 	void GetPoston(float x_, float y_);
-	void CrossProduct();
-	void InnerProduct();
+
 private:
 	float PosX;
 	float PosY;

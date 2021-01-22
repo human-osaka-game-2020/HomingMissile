@@ -38,7 +38,6 @@ void Target::Exec()
 void Target::Draw()
 {
 	DrawRotaGraph2(PosX, PosY, CPosX, CPosY, 0.7, Angle, Texture, TRUE);
-	//DrawFormatString(100, 100, GetColor(0, 255, 255), "%f %f", PosX, PosY);
 }
 
 void Target::InitTexture()
